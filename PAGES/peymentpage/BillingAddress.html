@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BillingAddress Form</title>
+  <link href="./BillingAddress.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS_File/BillingAddress.css">
+</head>
+
+<body>
+  <div class="MainPage">
+    <h2>LOGIN/SIGN UP</h2>
+    <p>OR</p>
+    <form method="POST">
+      <h1>CONTINUE AS GUEST</h1>
+      <!-- First Line -->
+      <div class="input-group">
+        <div class="input-box">
+          <input type="text" placeholder="First Name" required class="name">
+          <i class="fa fa-user icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Last Name" required class="name">
+          <i class="fa fa-user icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Company" required class="name">
+          <i class="fa fa-user icon"></i>
+        </div>
+      </div>
+      <!-- Second Line -->
+      <div class="input-group">
+        <div class="input-box">
+          <input type="Text" placeholder="Flat Number" required class="name">
+          <i class="fa fa-home icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="email" placeholder="Email Adress" required class="name">
+          <i class="fa fa-envelope icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="Text" placeholder="Mobile Number" required class="name">
+          <i class="fa fa-phone-square icon" aria-hidden="true"></i>
+
+        </div>
+      </div>
+      <!-- Third Line -->
+      <div class="input-group">
+        <div class="input-box">
+          <input type="Text" placeholder="Apartment Adress" required class="name">
+          <i class="fa fa-address-book icon"></i>
+        </div>
+        <div class="input-box">
+          <input type="Text" placeholder="Zip code/pin Code" required class="name">
+          <i class="fa fa-map-marker icon"></i>
+        </div>
+        <div class="input-box">
+          <button class="details">GET DETAILS</button>
+        </div>
+      </div>
+   
+<!-- Fourth line -->
+  <div class="input-group">
+    <div class="input-box">
+      <input type="Text" placeholder="State" required class="name">
+      <i class="fa fa-globe icon"></i>
+    </div>
+    <div class="input-box">
+      <input type="Text" placeholder="City" required class="name">
+      <i class="fa fa-globe icon"></i>
+    </div>
+    <div class="input-box">
+      <input type="Text" placeholder="Country" required class="name">
+      <i class="fa fa-globe icon"></i>
+    </div>
+  </div>
+  <!-- Fourth Line Close -->
+
+  <!-- Button Area -->
+  <div class="input-group">
+    <!-- <div class="input-box"> -->
+      <button type="submit" class="Cancel" > <a href="/HTML_File/MekeupApi.html">CANCEL</a></button>
+    <!-- </div> -->
+    <button type="submit" class="Save" style=" width: 400px; margin-right: 150px;" onclick="billingAddress()"><a href="./Payment.html">SAVE AND USE THIS ADDRESS </a> </button>
+  </div>
+
+  </form>
+  </div>
+</body>
+<script src="/JS_File/BillingAddress.js"></script>
+
+</html>

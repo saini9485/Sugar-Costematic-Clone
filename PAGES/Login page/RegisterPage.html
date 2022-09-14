@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="RegisterPage.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:ital,wght@0,300;0,400;1,300;1,400&family=Plus+Jakarta+Sans:wght@400;600&family=Poppins:wght@200;300;400;500&family=Quicksand&family=Ubuntu:wght@500&display=swap"
+    rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    
+
+
+
+    <div id="MainRegisterPage" style="display: block;">
+        <div id="subRegisterPage">
+            <div id="close" onclick="closed ()">
+                <a href="../Landing page/index.html"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <a href="#"></a>
+            <p id="headlog">Login/Sign Up</p>
+
+            <div id="Registerbox">
+                <div class="boxtop">
+                    <img src="https://in.sugarcosmetics.com/smartphone.svg" alt height="30px" width="30px"
+                        class="logmob">
+                    <p class="loginsign">WELCOME !</p>
+                </div>
+                <p class="detail">Phone Number Verified - +91 8937800532 (Try another number)</p>
+                <div id="fbicon">
+                    <div>
+                        <a href="#" class="LoginWithFacebook"> <img
+                                src="https://in.sugarcosmetics.com/desc-images/facebook_login.svg" width="148px"
+                                height="40px"></a>
+                    </div>
+                    <p>Or</p>
+                    <div>
+                        <a href="#" class="LoginWithEmail"> <img
+                                src="https://in.sugarcosmetics.com/desc-images/google.png" width="158px"
+                                height="40px"></a>
+                    </div>
+                </div>
+                <div class="infohrline"></div>
+                <p class="detail">Or Enter Account Details</p>
+                <form action="./myaction.js" name="myForm" onsubmit="return validateform()" method="post">
+                    <div id="infoinput">
+                        <div class="infoname" id="First-Name">
+                            <input type="text" maxlength="9" placeholder="First-Name" class="formerror" id="fname" required>
+                        </div>
+                        <div class="infoname" id="Middle-Name">
+                            <input type="text" maxlength="9" placeholder="Middle-Name" class="formerror" id="mname" required>
+                        </div>
+                        <div class="infoname" id="Middle-Name">
+                            <input type="text" maxlength="9" placeholder="Last-Name" class="formerror" id="lname" required>
+                        </div>
+                    </div>
+                    <div id="infoemail" id="Middle-Name">
+                        <input type="email" placeholder=" Enter Email" id="email">
+                    </div>
+                    <div id="infoemail" id="Middle-Name">
+                        <input type="number" placeholder="Phone Number" id="phone">
+                    </div>
+                    <div id="savebtn" onclick="Save_and_countinue()"><a href="./loginPage.html">Save and Continue</a> </div>
+                    <div id="savebtn""><a href="./loginPage.html">Existing User ?</a></div>
+            </div>
+            </form>
+            <div id="logcontent">
+                <div class="logp">
+                    <p>
+                        "Registering for this site allows you to access your order status and history. Just fill in the
+                        fields below, and we'll get a new account set up for you in no time. We will only ask you for
+                        information necessary to make the purchase process faster and easier."
+                    </p>
+                </div>
+                <div id="small">
+                    <small class="small">By Signing up or logging in, you agree to our.<a href="#">Terms and
+                            Conditions</small></a>
+                </div>
+            </div>
+
+        </div>
+        <div id="container" style="display: none" ;>
+            <h1> hi Congratulation, Your Account is created successful <button class="ok" onclick="okay ()">Ok</button>
+            </h1>
+
+        </div>
+</body>
+<script src="RegisterPage.js"></script>
+
+</html>
