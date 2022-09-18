@@ -58,7 +58,7 @@ skincare.addEventListener("click", function (event) {
         //console.log(makeup)
         let result = `
         <div class=box>  
-        <img src="${makeup.image_link}" class="image" alt="image" >
+        <img src="${makeup.image_link}" class="click image" alt="image"  id="${makeup.id}">
              <p class="Makeup_Name">  ${makeup.name}</p>
              <h4 class="Makeup_Price">$${makeup.price} <span>(20 % off)</span></h4>
                 <p><i class="fa fa-star" aria-hidden="true"></i>5.6
@@ -140,7 +140,7 @@ moisture.onclick = function () {
         //console.log(makeup)
         let result = `
         <div class=box>  
-        <img src="${makeup.image_link}" class="image" alt="image" >
+        <img src="${makeup.image_link}" class="click image" alt="image"  id="${makeup.id}">
              <p class="Makeup_Name">  ${makeup.name}</p>
              <h4 class="Makeup_Price">$${makeup.price} <span>(20 % off)</span></h4>
                 <p><i class="fa fa-star" aria-hidden="true"></i>5.6
