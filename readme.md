@@ -4,7 +4,7 @@ https://marvelous-jalebi-16f62a.netlify.app/
 <img src="Output.png" >
 
 
-<h1>Sugar Cosmetic - clone</h1>
+<h1>Sugar Cosmetic - clone </h1>
 Sugar cosmetic is selling online beauty products, This is the site where you can various type of cosmetic products like makeup kit , powder , brushes etc . This is very popular site in India . This is a clone project of sugercosmetic.com. this is collobrative project, It took 4 days to complete.
 
 <h1>Tech Stack</h1>
